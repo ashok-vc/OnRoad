@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_color_primary">#fe4c4c</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#400A50</color>
+    <color name="textColorPrimary">#fe4c4c</color>
+    <color name="textDeselected">#9b9b9b</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#fe4c4c</color>
+    <color name="sleekTextColor">#5c5c5c</color>
+    <color name="white">#ffffff</color>
+    <color name="darkGray">#4a4a4a</color>
+    <color name="black">#000000</color>
+    <color name="listview_disabledbg">#ebebeb</color>
+    <color name="text_black_color">#4a4a4a</color>
+    <color name="lightWhite">#ebebeb</color>
+    <color name="verySleekTextColor">#b0b0b0</color>
+    <color name="semiTransparent">#ffffff</color>
+    <color name="lineColor">#dfdfdf</color>
+    <color name="light_primary">#E7E7E7</color>
+    <color name="colorPrimary_onpressed">#d63f3f</color>
+    <color name="text_light_grey">#989898</color>
+    <color name="light_dark_grey">#cfcfcf</color>
+    <color name="grey_border_line_color">#eaeaea</color>
+    <color name="grey_color_bg">#fafafa</color>
+    <color name="grey_color_bg2">#f4f4f4</color>
+    <color name="header">#ededed</color>
+    <color name="tabBtn_primary_color">#fa5153</color>
+    <color name="tabBtn_grey_color">#c9c9c9</color>
+    <color name="hint_bg_yellow">#f5a623</color>
+    <color name="green">#2ddc90</color>
+    <color name="text_ultralight_grey">#A0A0A0</color>
+    <color name="divider_moderatelight_grey">#dbdbdb</color>
+<color name="bottom_grey_button">#dedddd</color>
+</resources>
