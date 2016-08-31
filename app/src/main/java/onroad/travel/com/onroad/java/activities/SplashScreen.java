@@ -101,7 +101,7 @@ public class SplashScreen extends Activity {
                                     public void success(AppacitiveUser user) {
                                         String id = "" + user.getId();
                                         model.createUser(id, fb_id, fb_id, "https://graph.facebook.com/" + fb_id + "/picture?type=large", location, location,
-                                                "5", user_slug, location, object.optString("email"), object.optString("name"), " ", object.optString("birthday"), "NA", user_slug);
+                                                "5",  location, object.optString("email"), object.optString("name"), " ", object.optString("birthday"), "NA", user_slug);
                                         sharedPreferenceModel.insertData(Constants.LoginStatus, true);
                                         goToMainActivity();
                                     }
@@ -116,7 +116,7 @@ public class SplashScreen extends Activity {
                                                 String id = "" + user.getId();
                                                 Log.e("id", id);
                                                 model.createUser(id, fb_id, fb_id, "https://graph.facebook.com/" + fb_id + "/picture?type=large", location, location,
-                                                        "5", user_slug, location, object.optString("email"), object.optString("name"), " ", object.optString("birthday"), "NA", user_slug);
+                                                        "5",  location, object.optString("email"), object.optString("name"), " ", object.optString("birthday"), "NA", user_slug);
                                                 sharedPreferenceModel.insertData(Constants.LoginStatus, true);
                                                 goToMainActivity();
                                             }

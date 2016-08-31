@@ -60,7 +60,7 @@ public class Model extends SQLiteOpenHelper {
 //    password text
 
     public void createUser(String appacitive_id,String username,String facebook_id, String user_dp,String user_country, String user_current_city,
-                           String no_free_trips,String user_slug, String location, String email, String firstname,
+                           String no_free_trips, String location, String email, String firstname,
                            String lastname, String birthdate, String phone,String password)
     {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -72,7 +72,7 @@ public class Model extends SQLiteOpenHelper {
         contentValues.put("user_country", user_country);
         contentValues.put("user_current_city", user_current_city);
         contentValues.put("no_free_trips", no_free_trips);
-        contentValues.put("user_slug", user_slug);
+        contentValues.put("user_slug", appacitive_id);
         contentValues.put("location", location);
         contentValues.put("email", email);
         contentValues.put("firstname", firstname);
